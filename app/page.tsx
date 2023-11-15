@@ -4,8 +4,10 @@ import TrailCard from './components/TrailCard'
 export default function Home() {
   return (
     <main>
-      <h1>Hello </h1>
-      <TrailCard/>
+      <div className='py-12'>
+        <TrailCard/>
+      </div>
+      
     </main>
   )
 }
