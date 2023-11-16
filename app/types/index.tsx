@@ -46,7 +46,7 @@ export interface TrailProps {
   id: number;
   name: string;
   url: string;
-  length: number;
+  length: string;
   description: string;
   city: string;
   region: string;
