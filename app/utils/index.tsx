@@ -30,7 +30,7 @@ export async function getLatLng(location: string): Promise<{ lat: number, lng: n
     const apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
     const apiKey = process.env.GOOGLE_MAP_API_KEY;
     console.log("get location !!")
-    try {
+    
         const response = await axios.get(apiUrl, {
             params: {
                 address: location,
@@ -44,9 +44,7 @@ export async function getLatLng(location: string): Promise<{ lat: number, lng: n
             const { lat, lng } = results[0].geometry.location;
             return { lat, lng };
         } else {
-            throw new Error('Location not found');
+            throw new Error("Location not found");
         }
-    } catch (error) {
-        throw new Error(`Error getting location: ${error.message}`);
-    }
+    
 }
