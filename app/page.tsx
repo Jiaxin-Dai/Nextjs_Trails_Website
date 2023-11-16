@@ -20,7 +20,7 @@ export default async function Home({ searchParams }: HomeProps) {
       id: 613726,
       name: '7th St. and Mineral',
       url: 'https://www.singletracks.com/bike-trails/7th-st-and-mineral/',
-      length: 6,
+      length: '6',
       description: "Quite a bit of an uphill, great work out, me and the wife generally do about 6 miles. I have some very cool rides in this area, If you are more of an extreme MTB'r and you have a friend, I would suggest leaving a car at the Base of the boy scout camp on dobbins and 20th st. Huge entrance cant miss it park a car here, continue up in your buddies car down dobbins W to Central Ave, take a left and head up to the top of lookout mountain, when you get to the top park and get the bikes ready. take the road down to where the road splits, take a left to the national trail, when you get to the national trail take a right, this will take you down to the Geronimo trail and bring you back out  by the Boy scout camp, its pretty much mostly downhill and just a blast. Warning this is a very dangerous trail and you will be easily over the bars at any given moment, you must have experience to do this ride... AT your own risk.. its really pretty difficult.",
       directions: '7th Street & Mineral for Parking- no fees. There is a cross gate when the road dead ends this is where the trail begins, there is an up and down (trail forks app) then you will have a short jaunt in the parking lot, pass a trail head for hiking on your left and the the trail will be visible on your left Follow up and around into box canyon, there are many ways you can take, but all trails will eventually lead back home.',
       city: 'Phoenix',
@@ -65,7 +65,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: '',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 287699,
@@ -185,7 +185,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: 'Restrooms',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 275401,
@@ -202,7 +202,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: 'Restrooms',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 275402,
@@ -219,7 +219,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: 'Restrooms',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 275403,
@@ -236,7 +236,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: 'Restrooms',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 275404,
@@ -253,7 +253,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: 'Restrooms',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 287451,
@@ -313,7 +313,7 @@ export default async function Home({ searchParams }: HomeProps) {
       id: 621549,
       name: 'Lucero Trails',
       url: 'https://www.singletracks.com/bike-trails/lucero-trails/',
-      length: 12,
+      length: '12',
       description: 'Opened May, 2022. Trails are rated from easy to expert.',
       directions: 'Located in the Estrella community.',
       city: 'Estrella',
@@ -324,7 +324,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: '',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 287383,
@@ -360,7 +360,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: 'Beginner',
       features: 'Restrooms',
       rating: 2.5,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 284315,
@@ -457,7 +457,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: 'Easiest',
       features: '',
       rating: 1,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 277007,
@@ -498,7 +498,7 @@ export default async function Home({ searchParams }: HomeProps) {
       id: 280580,
       name: 'Sonoran Preserve North',
       url: 'https://www.singletracks.com/bike-trails/sonoran-preserve-north/',
-      length: 20,
+      length: '20',
       description: 'Nice rolling single track with many steep sustained climbs and fun flawy downhills. No technical features but good fitness is needed. If you do all the climbs and loops can get in over 20 miles and almost 4000 ft of climbing. The trail is very pump able and best on a hard tail',
       directions: 'Apache Wash Trailhead, 1600 E. Sonoran Desert Dr. From Phoenix take I 17 north to Dove Valley road go east about 5 miles and turn left on Sonoran desert dr to trailhead with water and bathrooms',
       city: 'Phoenix',
@@ -526,7 +526,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: '',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 282814,
@@ -585,13 +585,13 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: 'Intermediate',
       features: '',
       rating: 5,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 280209,
       name: "Brown's Ranch to Granite Mountain",
       url: 'https://www.singletracks.com/bike-trails/browns-ranch-to-granite-mountain/',
-      length: 14,
+      length: '14',
       description: 'Starts off at a trailhead onto a two track that can be taken to a variety of trails',
       directions: 'Take Pima North off the 101 then go east on Dynamite then North to Browns Ranch Trailhead',
       city: 'Scottsdale',
@@ -701,7 +701,7 @@ export default async function Home({ searchParams }: HomeProps) {
       difficulty: '',
       features: '',
       rating: 0,
-      thumbnail: null
+      thumbnail: ''
     },
     {
       id: 277548,
