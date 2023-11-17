@@ -33,7 +33,7 @@ export const TrailCard  = ( { trail }: TrailCardProps) => {
       <div key={trail.id}>
       <div className="card w-96 h-96 bg-base-100 shadow-xl">
         <figure>
-          <img src={trail.thumbnail == null ? '/logo.jpeg' : trail.thumbnail} alt={trail.name} className="object-cover w-full h-60"/>
+          <img src={(trail.thumbnail == '' || trail.thumbnail == null )? '/logo.jpeg' : trail.thumbnail} alt={trail.name} className="object-cover w-full h-60"/>
         </figure>
         <div className="card-body p-4">
           <h2 className="card-title">{trail.name}

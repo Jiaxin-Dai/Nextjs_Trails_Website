@@ -23,8 +23,8 @@ export interface ShowMoreProps {
 
 
 export interface FilterProps {
-  latitude: number;
-  longitude: number;
+  latitude: string | number;
+  longitude: string | number;
   page?: number;
   per_page?: number;
   radius?: number;
